@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Registration Form</title>
+</head>
+<body>
+    <center>
+        <h1>Registration Form</h1>
+        
+        <form action="#" method="POST">
+            <p>
+                <label for="full-name">Full Name:</label><br>
+                <input type="text" id="full-name" name="full_name" placeholder="Enter your full name" required>
+            </p>
+
+            <p>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </p>
+
+            <p>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </p>
+
+            <p>
+                <label for="confirm-password">Confirm Password:</label><br>
+                <input type="password" id="confirm-password" name="confirm_password" placeholder="Confirm your password" required>
+            </p>
+
+            <p>
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="dob">
+            </p>
+
+            <p>
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </p>
+
+            <p>
+                <label for="country">Country:</label><br>
+                <select id="country" name="country">
+                    <option value="">-- Select your country --</option>
+                    <option value="usa">United States</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="australia">Australia</option>
+                    <option value="india">India</option>
+                    <option value="germany">Germany</option>
+                    <option value="russia">Russia</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="bio">Tell us about yourself (optional):</label><br>
+                <textarea id="bio" name="bio" rows="5" cols="50" placeholder="A brief description..."></textarea>
+            </p>
+
+            <p>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Subscribe to our newsletter</label>
+            </p>
+
+            <p>
+                <button type="submit">Register</button>
+            </p>
+        </form>
+    </center>
+</body>
+</html>

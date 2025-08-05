@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Tags </title>
+</head>
+<body>
+        <fieldset>
+            <legend><b>Personal details</b></legend>
+            <br>
+            <br>
+            <h2>Input Tags</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+        <br>
+        <br>
+          <label>
+           <input type="radio" id="male" name="gender" value="male"> Male
+        </label><br>
+        <label>
+           <input type="radio" id="female" name="gender" value="female"> Female
+        </label><br>
+        <label>
+            <input type="radio" id="other" name="gender" value="other"> Other
+            </label>
+            <br>
+            <br>
+        <label for="datetime">Date & Time:</label>
+        <input type="date" id="datetime" name="date" title="Enter your DOB">
+        <input type="time" name="time">
+        <br>
+        <br>
+        </fieldset>
+        <fieldset>
+            <legend><b> Extra details</b></legend>
+            <br>
+            <br>
+        <label>Enter your LinkedIn url:</label>
+        <input type="url" placeholder="https://www.kodnest.com">
+        <br>
+        <br>
+        <label for="color">Select color:</label>
+        <input type="color" id="color" name="color">
+        <br>
+        <br>
+        <label>
+            <input type="checkbox" value="html" name="html"> HTML
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" value="css" name="css"> CSS
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" value="js" name="js"> JavaScript
+        </label>
+        <br>
+        <br>
+       <label>
+           <input type="radio" id="male" name="gender" value="male"> Male
+        </label><br>
+        <label>
+           <input type="radio" id="female" name="gender" value="female"> Female
+        </label><br>
+        <label>
+            <input type="radio" id="other" name="gender" value="other"> Other
+            </label>
+            <label for="file">Upload file: </label>
+            <input type="file" id="file">
+            <br>
+            <br>
+            <label for="html_rating">rate yourself in HTML</label>
+            <input type="range" id="html_rating" name="html_rating" min="0" max="100" value="50">
+            <br>
+            <br>
+            <label for="option">Select Skills</label>
+                <select id="option" name="Skills">
+                  <option value="html">HTML</option>
+                  <option value="css">CSS</option>
+                  <option value="js">JavaScript</option>
+                  <option value="python">python</option>
+                  <option value="R">R Programmkng</option>
+                </select>
+                <br>
+                <br>
+            </fieldset>
+            <fieldset>
+           
+            <legend><b> comment</b></legend>
+             <br>
+            <br>
+                <!-- Text Area-->
+                <label for="text">Enter your comment</label>
+                <textarea rows="5" cols="40" id="text" name="comment">
+                </textarea>
+                <br>
+                <br>
+                </fieldset>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+
+    </form>
+</body>
+</html>
